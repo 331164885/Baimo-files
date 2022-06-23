@@ -1,0 +1,28 @@
+{
+    "name": "baimo\/files",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hey",
+            "email": "2223423872@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Baimo\\Files\\": "src"
+        }
+    },
+    "extra": {
+        "larvel": {
+            "providers": [
+                "Baimo\\Files\\Providers\\ModulesServiceProvider"
+            ],
+            "dont-discover":[],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
